@@ -1,0 +1,109 @@
+.container {
+    width: 980px;
+    min-width: 980px;
+}
+
+.container .panel-title {
+    text-align: center;
+}
+
+.container .center {
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+
+.datapacman {
+    margin-top: 10px;
+}
+
+.planet {
+    font-family: 'Muli', 'Helvetica Neue', helvetica, arial;
+    margin-left: 2px;
+}
+
+.planet .ram, .planet .localstorage {
+    padding: 2px;
+}
+
+.planet table, .planet table {
+    margin-bottom: 12px;
+}
+
+.planet .ram {
+    border: 3px solid grey;
+}
+
+.planet .localstorage {
+    border: 3px solid green;
+}
+
+.planet td {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    min-height: 35px;
+    text-align: center;
+}
+
+.planet td:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.selected, .selected:hover {
+    background-color: #63A834 !important;
+}
+
+.saved, .saved:hover {
+    background-color: #DCF5CB !important;
+}
+
+.garden h4 {
+    margin-left: 12px;
+}
+
+.garden h4:hover {
+    cursor: pointer;
+}
+
+#bigBtn {
+    margin-left: 14px;
+}
+
+.workshop .panel-body, .garden .panel-body {
+    min-height: 202px;
+}
+
+.charts {
+    width: 950px;
+    min-width: 950px;
+    margin-left: 40px;
+}
+
+.genFile {
+    max-height: 180px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.analiticTable {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.analiticTable td {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    width: 20%;
+}
+
+.statisticTable {
+    max-height: 560px;
+    overflow: auto;
+}
+
+.modal-body .well {
+    margin-top: 10px;
+}
